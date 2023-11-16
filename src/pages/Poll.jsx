@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import ProtectedPage from "../components/ProtectedPage";
 import { handleAddAnswer } from "../redux/actions/question-actions";
 import { Button, Grid, Typography } from "@mui/material";
@@ -86,7 +86,6 @@ const mapStateToProps = ({ authedUser, users, questions }, { params: { id } = {}
     try {
         const question = Object.values(questions).find((question) => question.id === id);
         const author = Object.values(users).find((user) => user.id === question.author?.id || question?.author);
-        console.log('hi', { authedUser, question, author })
         return { authedUser, question, author };
     } catch (e) {
         return <Navigate to="/404" />;
