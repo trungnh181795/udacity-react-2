@@ -21,7 +21,7 @@ const userReducer = (state = {}, action) => {
         case ADD_QUESTION_USER:
             return {
                 ...state,
-                [action.author]: {
+                [action.author?.id]: {
                     ...state[action.author.id],
                     questions: state[action.author.id].questions.concat(action.qid)
                 }

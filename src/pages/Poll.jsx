@@ -3,6 +3,8 @@ import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import ProtectedPage from "../components/ProtectedPage";
 import { handleAddAnswer } from "../redux/actions/question-actions";
 import { Button, Grid, Typography } from "@mui/material";
+import withRouter from "../redux/withRouter";
+import { compose } from "redux";
 
 const PollPage = ({ dispatch, authedUser, question, author }) => {
     const navigate = useNavigate();
@@ -80,14 +82,18 @@ const PollPage = ({ dispatch, authedUser, question, author }) => {
     );
 };
 
-const mapStateToProps = ({ authedUser, users, questions }) => {
+const mapStateToProps = ({ authedUser, users, questions }, { params: { id } = {}}) => {
     try {
-        const question = Object.values(questions).find((question) => question.id === useParams().id);
-        const author = Object.values(users).find((user) => user.id === question.author);
+        const question = Object.values(questions).find((question) => question.id === id);
+        const author = Object.values(users).find((user) => user.id === question.author?.id || question?.author);
+        console.log('hi', { authedUser, question, author })
         return { authedUser, question, author };
     } catch (e) {
         return <Navigate to="/404" />;
     }
 };
 
-export default connect(mapStateToProps)(PollPage);
+export default compose(
+    withRouter,
+    connect(mapStateToProps)
+)(PollPage);

@@ -2,7 +2,7 @@ import { Box, Button, Paper, Stack, Typography } from "@mui/material";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
-const Card = ({ question, author }) => {
+const QuestionCard = ({ question, author }) => {
     return (
         <Link to={`questions/${question?.id}`}>
             <Paper sx={{ bgcolor: 'gray', p: 2 }}>
@@ -19,4 +19,4 @@ const Card = ({ question, author }) => {
     );
 }
 
-export default connect()(Card);
+export default connect()(QuestionCard);

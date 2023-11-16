@@ -170,7 +170,7 @@ export function _saveQuestion(question) {
         setTimeout(() => {
             questions = {
                 ...questions,
-                [formattedQuestion.id]: formattedQuestion
+                [formattedQuestion.id]: formattedQuestion,
             }
 
             resolve(formattedQuestion)
