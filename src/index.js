@@ -3,11 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+import { BrowserRouter as Routers } from 'react-router-dom';
+import { ThemeProvider, createTheme } from '@mui/material';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#F66B2D',
+    },
+  },
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <Provider store={store}>
+        <Routers>
+          <App />
+        </Routers>
+      </Provider>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

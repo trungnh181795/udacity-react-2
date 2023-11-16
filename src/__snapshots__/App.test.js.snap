@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the view 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiStack-root css-4angz2-MuiStack-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h3 css-1cavsrc-MuiTypography-root"
+          data-testid="login-header"
+        >
+          Login
+        </h1>
+        <form>
+          <div
+            class="MuiStack-root css-l6w30c-MuiStack-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth css-14u90gq-MuiFormControl-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard css-1ghx75c-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="true"
+                for="username"
+              >
+                Username
+              </label>
+              <div
+                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-d4u71u-MuiInputBase-root-MuiInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+                  id="username"
+                  name="username"
+                  type="text"
+                  value="zoshikanlu"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth css-1dy8wvs-MuiFormControl-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard css-1ghx75c-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="true"
+                for="password"
+              >
+                Password
+              </label>
+              <div
+                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-d4u71u-MuiInputBase-root-MuiInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+                  id="password"
+                  name="password"
+                  type="password"
+                  value="pass246"
+                />
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-ptgup4-MuiButtonBase-root-MuiButton-root"
+              id="login-submit"
+              tabindex="0"
+              type="submit"
+            >
+              Login
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiStack-root css-4angz2-MuiStack-root"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h3 css-1cavsrc-MuiTypography-root"
+        data-testid="login-header"
+      >
+        Login
+      </h1>
+      <form>
+        <div
+          class="MuiStack-root css-l6w30c-MuiStack-root"
+        >
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-14u90gq-MuiFormControl-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard css-1ghx75c-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink="true"
+              for="username"
+            >
+              Username
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-d4u71u-MuiInputBase-root-MuiInput-root"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+                id="username"
+                name="username"
+                type="text"
+                value="zoshikanlu"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth css-1dy8wvs-MuiFormControl-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-standard css-1ghx75c-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink="true"
+              for="password"
+            >
+              Password
+            </label>
+            <div
+              class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-d4u71u-MuiInputBase-root-MuiInput-root"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+                id="password"
+                name="password"
+                type="password"
+                value="pass246"
+              />
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-ptgup4-MuiButtonBase-root-MuiButton-root"
+            id="login-submit"
+            tabindex="0"
+            type="submit"
+          >
+            Login
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
